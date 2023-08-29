@@ -1,0 +1,27 @@
+{
+  "name": "self_study",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "repository": "https://github.com/owl1753/self_study",
+  "author": "심민성 <bighammer1753@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc -p .",
+    "dev": "nodemon --watch app.ts --watch views/**/*.pug --exec \"ts-node\" app.ts"
+  }
+}

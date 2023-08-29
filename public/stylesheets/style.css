@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'payboocBold';
+    src: url('/fonts/paybooc_font/paybooc Bold.ttf') format('truetype'),
+    url('/fonts/paybooc_font/paybooc OTF Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
